@@ -8,4 +8,4 @@ Home page
 
 The source for this page is in `content/index.md`.
 
-This is a sample home page written in markdown with some frontmatter defined.
+Hej, jag heter David och testar att skapa en sida med Pico. 
