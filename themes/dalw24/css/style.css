@@ -28,7 +28,7 @@ body {
     margin: auto;
 }
 
-/* Lägger till marginal ovanför min bild */
+/* Lägger till marginal ovanför min bild. */
 img {
     margin-top: 15px;
 }
