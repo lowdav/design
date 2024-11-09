@@ -1,8 +1,8 @@
 ---
 Logo: image/logo.png
-Tagline: My portfolio.
+Tagline: Välkommen
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Link till mitt github repo för momentet.
+      url: https://github.com/lowdav/design_kmom01
       icon: github
 ---
