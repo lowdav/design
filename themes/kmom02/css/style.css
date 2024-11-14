@@ -6509,6 +6509,67 @@ pre code {
     cursor: pointer;
   }
 }
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  background-color: aqua;
+  flex: 1 0 auto;
+}
+
+.header, .footer {
+  flex: 0 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+}
+
+.nav a {
+  font-size: 2rem;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 1rem;
+}
+
+.logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  align-items: center;
+  padding: 2rem;
+}
+.footer .social a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: white;
+}
+
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -6523,4 +6584,9 @@ body {
 
 * {
   color: #000;
+}
+
+html {
+  width: 90%;
+  margin: auto;
 }
