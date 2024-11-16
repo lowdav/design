@@ -6509,31 +6509,12 @@ pre code {
     cursor: pointer;
   }
 }
-html, body {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.main {
-  background-color: aqua;
-  flex: 1 0 auto;
-}
-
-.header, .footer {
-  flex: 0 0 auto;
-}
-
 .header {
   display: flex;
   flex-direction: row;
   padding: 2rem;
   justify-content: space-between;
   align-items: center;
-  background-color: bisque;
 }
 
 .nav a {
@@ -6560,7 +6541,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: antiquewhite;
   align-items: center;
   padding: 2rem;
 }
@@ -6572,21 +6552,46 @@ body {
 
 * {
   font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  width: 100%;
+  margin: auto;
+  font-size: 100%;
+}
+
+body {
+  background-color: #dcdcdc;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
 }
 
-body {
-  background-color: #d7d8db;
+p {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  margin-bottom: 1.96rem;
 }
 
-* {
-  color: #000;
-}
-
-html {
-  width: 90%;
+.main {
+  background-color: #dcdcdc;
+  flex: 1 0 auto;
+  width: 50em;
   margin: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .footer {
+  flex: 0 0 auto;
+  background-color: #c7c5c5;
 }
