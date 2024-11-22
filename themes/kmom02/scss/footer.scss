@@ -1,19 +1,17 @@
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    // background-color: antiquewhite;
-    align-items: center;
-    padding: 2rem;
-
-    .social { 
-        a {
-        text-decoration: none;
-        font-size: 3rem;
-        color: white;
-        }
-    }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
 }
+
+.footer .social a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: #fff;
+}
+
 
 
 

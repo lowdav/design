@@ -6473,7 +6473,8 @@ pre code {
   padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
   color: #333;
 }
 
@@ -6544,18 +6545,97 @@ pre code {
   align-items: center;
   padding: 2rem;
 }
+
 .footer .social a {
   text-decoration: none;
   font-size: 3rem;
-  color: white;
+  color: #fff;
 }
 
+/* technology.scss */
+.landingpage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  width: 80vw;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.css {
+  grid-column: span 2;
+}
+
+.javascript {
+  grid-column: span 3;
+}
+
+.sqlite {
+  grid-column: span 2;
+}
+
+.python {
+  grid-column: span 2;
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+}
+
+.technology .article {
+  width: 70%;
+}
+
+.technology .menu {
+  width: 25%;
+}
+
+.box {
+  background-color: #FFF;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 1.96em;
+}
+
+.box:hover {
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 700px) {
+  .landingpage {
+    display: block;
+  }
+  .landingpage .box {
+    width: 80%;
+    margin-bottom: 2%;
+    padding: 0.98em;
+  }
+  .landingpage .box a {
+    font-size: 1em;
+    max-width: 100%;
+  }
+  .technology {
+    flex-direction: column;
+  }
+  .technology .menu {
+    display: none;
+  }
+  .technology .article {
+    width: 90%;
+    margin: auto;
+  }
+}
 * {
   font-family: "Roboto", sans-serif;
   color: #333;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -6569,21 +6649,29 @@ body {
   background-color: #dcdcdc;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Open Sans", sans-serif;
 }
 
 p {
   font-size: 1.4em;
-  line-height: 1.5em;
+  line-height: 1.4em;
   margin-bottom: 1.96rem;
 }
 
 .main {
   background-color: #dcdcdc;
   flex: 1 0 auto;
-  width: 50em;
   margin: auto;
+}
+
+.main p {
+  max-width: 60ch;
 }
 
 body {
@@ -6591,7 +6679,8 @@ body {
   flex-direction: column;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
   background-color: #c7c5c5;
 }

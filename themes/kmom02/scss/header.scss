@@ -1,28 +1,28 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    padding: 2rem;
-    justify-content: space-between;
-    align-items: center;
-    // background-color: bisque;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  // background-color: bisque;
 }
 
 .nav a {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .site-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .logo img {
-    max-width: 150px;
-    height: auto;
+  max-width: 150px;
+  height: auto;
 }
