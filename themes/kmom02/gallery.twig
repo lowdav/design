@@ -1,0 +1,61 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main gallery">
+        
+        {{ content }}
+
+        <a href="image/1.jpg" target="_blank">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/1.jpg?w=500&q=65">
+                <source media="(min-width: 376px)" srcset="image/1.jpg?w=376&q=60">
+                <img src="image/1.jpg?w=300&q=50" alt="Litet vattenfall">
+            </picture>
+        </a>
+        <a href="image/2.jpg" target="_blank">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/2.jpg?w=500&q=65">
+                <source media="(min-width: 376px)" srcset="image/2.jpg?w=376&q=60">
+                <img src="image/2.jpg?w=300&q=50" alt="Kanal">
+            </picture>
+        </a>
+        <a href="image/3.jpg" target="_blank">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/3.jpg?w=500&q=65">
+                <source media="(min-width: 376px)" srcset="image/3.jpg?w=376&q=60">
+                <img src="image/3.jpg?w=300&q=50" alt="Strand">
+            </picture>
+        </a>
+        <a href="image/4.jpg" target="_blank">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/4.jpg?w=500&q=65">
+                <source media="(min-width: 376px)" srcset="image/4.jpg?w=376&q=60">
+                <img src="image/4.jpg?w=300&q=50" alt="Strand">
+            </picture>
+        </a>
+        <a href="image/5.jpg" target="_blank">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/5.jpg?w=500&q=65">
+                <source media="(min-width: 376px)" srcset="image/5.jpg?w=376&q=60">
+                <img src="image/5.jpg?w=300&q=50" alt="Gångväg">
+            </picture>
+        </a>
+        <a href="image/6.jpg" target="_blank">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/6.jpg?w=500&q=65">
+                <source media="(min-width: 376px)" srcset="image/6.jpg?w=376&q=60">
+                <img src="image/6.jpg?w=300&q=50" alt="Kanal">
+            </picture>
+        </a>
+           
+       <div class="embed-container">
+    <iframe src="https://www.youtube.com/embed/UV0mhY2Dxr0?si=FONSP_MIIFFAs3Sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div> 
+</div> 
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
